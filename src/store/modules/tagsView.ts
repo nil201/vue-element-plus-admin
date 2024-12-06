@@ -159,5 +159,5 @@ export const useTagsViewStore = defineStore('tagsView', {
 })
 
 export const useTagsViewStoreWithOut = () => {
-  return useTagsViewStore(store)
+  return useTagsViewStore(store) // 此处应该没有参数啊
 }
